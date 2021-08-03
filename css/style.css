@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato&family=Pathway+Gothic+One&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
 
 * {
   margin: 0;
@@ -10,4 +11,188 @@
 body {
   background-color: #fff;
   font-family: "Pathway Gothic One", "Lato", serif;
+  padding: 0 24px;
+}
+
+li {
+  list-style: none;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+}
+
+.top-navbar ul {
+  display: none;
+  align-items: center;
+  justify-content: flex-end;
+  height: 40px;
+  background-color: #272a31;
+  color: #d3d3d3;
+  width: 100%;
+  margin: 0;
+  padding: 0 100px;
+}
+
+#leehar-line-lg {
+  justify-content: center;
+  width: 150px;
+  border: 3px solid #ec5242;
+  height: 40px;
+  margin-left: 30px;
+}
+
+.header-bg {
+  background-color: #fff;
+  z-index: 999;
+}
+
+.logo {
+  display: none;
+}
+
+.hamburger {
+  margin: 10px;
+  width: 45px;
+  height: 45px;
+}
+
+.hamburger img {
+  width: 100%;
+}
+
+.nav-links {
+  display: none;
+  align-items: center;
+  padding: 0;
+}
+
+.nav-links li {
+  list-style: none;
+  padding: 20px;
+}
+
+.menu-links {
+  display: none;
+  position: fixed;
+  background: linear-gradient(to right, rgba(7, 9, 93, 0.24), rgba(24, 23, 23, 0.87)), url('../assets/fashion-back-img.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  padding: 33px 38px 0 28px;
+  margin-top: 0;
+  margin-bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 999;
+  flex-direction: column;
+  font-size: 25px;
+  transition: all 0.6s ease-in-out;
+}
+
+.close-menu-btn {
+  display: flex;
+  width: 100%;
+  margin-top: -60px;
+  margin-right: -50px;
+  justify-content: flex-end;
+  transition: all 0.6s ease-in-out;
+}
+
+.close-menu-btn span {
+  color: white;
+  pointer-events: none;
+  font-size: 35px;
+}
+
+.close-menu-btn button {
+  padding-top: 20px;
+  transition: all 0.6s ease-in-out;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.menu-links a {
+  color: #d3d3d3;
+  font-size: 25px;
+}
+
+/* Add Desktop Version */
+
+@media screen and (min-width: 992px) {
+  header {
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    position: fixed;
+    top: 0;
+  }
+
+  .top-navbar ul {
+    display: flex;
+  }
+
+  .top-navbar li a {
+    color: #d3d3d3;
+    padding: 20px;
+    text-decoration: none;
+  }
+
+  .main-navbar {
+    justify-content: space-around;
+    background-color: white;
+  }
+
+  .close-menu-btn {
+    display: none;
+  }
+
+  .nav-links {
+    display: flex;
+  }
+
+  .menu-links {
+    display: none;
+  }
+
+  .see-more {
+    display: block;
+  }
+
+  .nav-links li a {
+    text-decoration: none;
+    color: #3b3e45;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  #current {
+    color: #ec5242;
+    font-weight: bold;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+  }
+
+  .logo img {
+    width: 100%;
+  }
 }
