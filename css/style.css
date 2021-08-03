@@ -1,11 +1,13 @@
-@import url("https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Pathway+Gothic+One&display=swap");
 
-body {
-  background-color: black;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.header {
-  color: wheat;
-  font-family: Metal Mania, "Times New Roman", Times, serif;
-  text-align: center;
+body {
+  background-color: #fff;
+  font-family: "Pathway Gothic One", "Lato", serif;
 }
