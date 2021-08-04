@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato&family=Pathway+Gothic+One&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap");
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
 
 * {
   margin: 0;
@@ -10,7 +11,7 @@
 
 body {
   background-color: #fff;
-  font-family: "Pathway Gothic One", "Lato", serif;
+  font-family:  'COCOGOOSE', "Pathway Gothic One", "Lato", serif;
   padding: 0 24px;
 }
 
@@ -82,7 +83,11 @@ header {
 .menu-links {
   display: none;
   position: fixed;
-  background: linear-gradient(to right, rgba(7, 9, 93, 0.24), rgba(24, 23, 23, 0.87)), url('../assets/fashion-back-img.jpg');
+  background: linear-gradient(
+      to right,
+      rgba(7, 9, 93, 0.24),
+      rgba(24, 23, 23, 0.87)
+    );
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -127,6 +132,57 @@ header {
 .menu-links a {
   color: #d3d3d3;
   font-size: 25px;
+}
+
+.home-section {
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 100px;
+  overflow: hidden;
+  background-image: url("../assets/background-img.jpg");
+  background-position: top right;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.home-section-header {
+  color: #ec5242;
+  line-height: 40px;
+}
+
+.home-message {
+  font-size: 25px;
+  margin-bottom: -20px;
+}
+
+.home-info {
+  text-transform: uppercase;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.home-text {
+  justify-content: flex-start;
+  border: 2px solid white;
+  background-color: #d3d3d352;
+}
+
+.home-text p {
+  margin: 15px;
+  font-size: 16px;
+  color: #272a31;
+}
+
+.opening-hours {
+  color: #272a31;
+  font-size: 23px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.home-text-2 {
+  color: #272a31;
+  font-size: 15px;
 }
 
 /* Add Desktop Version */
@@ -194,5 +250,56 @@ header {
 
   .logo img {
     width: 100%;
+  }
+
+  .home-wrapper {
+    width: 80%;
+    margin: 0 150px;
+  }
+
+  .home-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 900px;
+  }
+
+  .home-section-header {
+    color: #ec5242;
+    line-height: 80px;
+  }
+
+  .home-greeting {
+    font-size: 35px;
+    margin-bottom: -20px;
+  }
+
+  .home-info {
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: bold;
+  }
+
+  .home-text {
+    width: 70%;
+    margin-bottom: 50px;
+  }
+
+  .home-text p {
+    margin: 15px;
+    font-size: 23px;
+    color: #272a31;
+  }
+
+  .home-timetable {
+    color: #272a31;
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 15px;
+  }
+
+  .home-adress {
+    color: #272a31;
+    font-size: 22px;
   }
 }
