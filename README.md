@@ -27,7 +27,11 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link - coming soon]()
+[Deploy Link](https://rotimiazeez.github.io/my-first-capstone/)
+
+## Loom Video
+
+[See the video description](https://www.loom.com/share/7b19fa4fd9da40259a957b8104c7c9cc)
 
 ## Getting Started
 
@@ -41,10 +45,24 @@ To get a local copy up and running follow these simple example steps.
 
 ### Development (Running locally)
 
+- Cd into project folder
+
+```bash
+cd/d/Microverse-projects
+
+```
+
 - Clone the project
 
 ```bash
 git clone https://github.com/rotimiazeez/my-first-capstone.git
+
+```
+
+- Open the Project 
+
+```bash
+code my-first-capstone
 
 ```
 
@@ -90,7 +108,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
+- Hat tip to Cindy Shin (Owner of the original result)
 - Inspiration, resources/assets used
 - etc
 
