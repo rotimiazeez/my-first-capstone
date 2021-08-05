@@ -25,9 +25,7 @@ closeMenuBtn.addEventListener('click', () => {
 
 const speakerGrid = document.querySelector('.speaker-grid');
 
-
 function implementFeature() {
-
   myFeatures.forEach((feature) => {
     speakerGrid.innerHTML += `<article class="feature-article">
     <div class="feature-image">

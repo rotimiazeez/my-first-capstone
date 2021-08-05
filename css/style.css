@@ -83,7 +83,8 @@ header {
 .menu-links {
   display: none;
   position: fixed;
-  background: linear-gradient(
+  background:
+    linear-gradient(
       to right,
       rgba(7, 9, 93, 0.24),
       rgba(24, 23, 23, 0.87)
