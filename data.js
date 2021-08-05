@@ -16,7 +16,7 @@ const data = {
     },
     {
       key: 2,
-      featureImage: './assets/naomi-campbell.jpeg',
+      featureImage: './assets/ncampbell.jpg',
       featureName: 'Naomi Campbell',
       featureDescription: 'British model, actress and businesswoman.',
       featureMessage: ' Discovered at the age of 15, she established herself amongst the most recognisable and in-demand models of the late 1980s, the 1990s and the earlier 2000s including modern day. ',
@@ -30,14 +30,14 @@ const data = {
     },
     {
       key: 4,
-      featureImage: './assets/tyra-banks.jpg',
+      featureImage: './assets/tbanks.jpg',
       featureName: 'Tyra Banks',
       featureDescription: '"American television personality, Model and writer."',
       featureMessage: ' Tyra Lynne Banks, also known as BanX, is an American television personality, model, businesswoman, producer, actress, and writer',
     },
     {
       key: 5,
-      featureImage: './assets/tatum.jpg',
+      featureImage: './assets/ctatum.jpg',
       featureName: 'Channing Tatum',
       featureDescription: '"American actor, producer, Model and dancer"',
       featureMessage: ' Tatum made his film debut in the drama film Coach Carter. His breakthrough role was in the 2006 dance film Step Up, which introduced him to a wider audience.',
