@@ -9,7 +9,7 @@ const header = document.querySelector('header');
 
 window.addEventListener('scroll', () => {
   if (window.pageYOffset > 100) {
-     header.classList.add('header-bg');
+    header.classList.add('header-bg');
   } else {
     header.classList.remove('header-bg');
   }
