@@ -1,20 +1,37 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Hello World
+# Leehar's Fashion Week👗
 
-> A basic "Hello world" page that illustrate the use of tools and best practices for future Microverse projects.
+> A capstone project built based on a planned fashion week event with inspiration from Cindy Shin conference website. 
 
 Additional description about the project and its features.
+
+- Use semantic HTML tags.
+- Apply best practices in HTML code.
+- Use CSS selectors correctly.
+- Use CSS box model.
+- Use Flexbox to place elements in the page.
+- Demonstrate ability to create UIs adaptable to different screen sizes using media queries.
+- Use GitHub Pages to deploy web pages.
+- Apply JavaScript best practices and language style guides in code.
+- Use JavaScript to manipulate DOM elements.
+- Use JavaScript events.
+- Use objects to store and access data.
+- Communicate technical concepts to other technical people.
 
 ## Built With
 
 - HTML
 - CSS
-- Stylelint, Github Actions
+- Javascript
 
 ## Live Demo
 
-[Live Demo Link - coming soon]()
+[Deploy Link](https://rotimiazeez.github.io/my-first-capstone/)
+
+## Loom Video
+
+[See the video description](https://www.loom.com/share/7b19fa4fd9da40259a957b8104c7c9cc)
 
 ## Getting Started
 
@@ -28,10 +45,24 @@ To get a local copy up and running follow these simple example steps.
 
 ### Development (Running locally)
 
+- Cd into project folder
+
+```bash
+cd/d/Microverse-projects
+
+```
+
 - Clone the project
 
 ```bash
-git clone https://github.com/rotimiazeez/hello-world.git
+git clone https://github.com/rotimiazeez/my-first-capstone.git
+
+```
+
+- Open the Project 
+
+```bash
+code my-first-capstone
 
 ```
 
@@ -77,7 +108,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
+- Hat tip to Cindy Shin (Owner of the original result)
 - Inspiration, resources/assets used
 - etc
 
